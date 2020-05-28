@@ -1,0 +1,24 @@
+Example 1:
+Given two numbers num1=15 and num2=12.
+
+# Python3 program to add two numbers 
+  
+num1 = 15
+num2 = 12
+sum = num1 + num2 
+print("Sum of {0} and {1} is {2}" .format(num1, num2, sum)) 
+
+Output: Sum of 15 and 12 is 27
+
+------------------------------
+
+Example 2: 
+Adding two number provided by user input
+
+number1 = input("First number: ") 
+number2 = input("\nSecond number: ") 
+sum = float(number1) + float(number2) 
+print("The sum of {0} and {1} is {2}" .format(number1, number2, sum)) 
+
+Output: First number: 13.5 Second number: 1.54
+        The sum of 13.5 and 1.54 is 15.04
